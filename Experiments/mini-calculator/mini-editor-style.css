@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkturquoise;
+    box-sizing: border-box;
+}
+
+.mini-calculator_wrapper {
+    display: grid;
+    grid-template:repeat(2, 1fr) / repeat(3, 1fr);
+    gap: .3em;
+}
+
+.mini-calculator_wrapper .textarea {
+    background-color: #03a9f4;
+    border: 0px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+textarea, iframe {
+    height: 50vh;
+}
+
+iframe.code-output-iframe {
+    grid-column: 1 / -1;
+    width: 100%;
+    background-color: #000000;
+    border: 0px;
+    color: #ffffff;
+    font-size: 1.5em;
+    overflow: hidden;
+}

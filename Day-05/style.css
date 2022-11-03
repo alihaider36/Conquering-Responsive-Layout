@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(0, 0%, 90%);
+}
+.hero-sec {
+    background-color: hsl(192, 36%, 21%);
+}
+.container {
+    width: 100%;
+    max-width: 144rem;
+    padding-block: clamp(7.4rem, calc(7.4rem + ((1vw - 0.3rem) * 4.3529)), 14.8rem);
+    padding-inline: clamp(6.2rem, calc(6.2rem + ((1vw - 0.3rem) * 3.5294)), 12.2rem);
+    margin-inline: auto;
+}
+.aside-hero-content {
+    color: hsla(0, 0%, 100%, 0.85);
+    width: 100%;
+    max-width: 71rem;
+}
+.hero-heading {
+    font-size: clamp(2.43rem, calc(2.43rem + ((1vw - 0.3rem) * 1.4235)), 4.85rem);
+    text-transform: capitalize;
+    line-height: 1.4;
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+}
+.hero-description {
+    font-size: 1.6rem;
+    line-height: 3.54rem;
+    color: hsla(0, 0%, 100%, 0.85);
+    font-weight: 400;
+    margin-block-start: 2.3rem;
+}
+.primary-btn {
+    padding-block: clamp(0.7rem, calc(0.7rem + ((1vw - 0.3rem) * 0.5294)), 1.6rem);
+    padding-inline: clamp(2.4rem, calc(2.4rem + ((1vw - 0.3rem) * 1.4118)), 4.8rem);
+    background-color: hsl(184, 68%, 54%);
+    border: 0rem;
+    border-end-end-radius: 3.1rem;
+    border-start-start-radius: 3.1rem;
+    border-start-end-radius: 3.1rem;
+    border-end-start-radius: 3.1rem;
+    font-size: clamp(1rem, calc(1rem + ((1vw - 0.3rem) * 0.6471)), 2.1rem);
+    font-weight: 700;
+    margin-block-start: 5.5rem;
+    text-transform: uppercase;
+    color: hsl(192, 36%, 21%);
+}
+
+.sec-2 {
+    height: 28.8rem;
+    background-color: hsl(0, 0%, 100%);
+}
